@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/root/app_root.dart';
 
 void main() {
-  runApp(AppRoot());
+  runApp(const AppRoot());
 }
 
 
@@ -20,11 +20,21 @@ void main() {
 
 //? SingleChildScrollView
 //? ListView - ListView.builder
+//? Nested ListView
 //? GridView - GridView.builder
 //? Carousel Slider
+//? SnackBar
+//? DatePicker - TimePicker
 //? Toast
 //? Dialogs
-//? Pop up Menu
-//? SnackBar
 //? BottomSheet
-//? Navigation
+//? Bottom Navigation Bar
+//? Tab Bar
+
+
+
+
+
+
+//Todo Pop up Menu
+//Todo Navigation => From Screen to Screen
