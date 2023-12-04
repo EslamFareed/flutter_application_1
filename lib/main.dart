@@ -28,11 +28,6 @@ void main() {
 //! Bottom Navigation Bar
 //! Tab Bar
 
-
-
-
-
-
 //? Navigation => From Screen to Screen
 //? Transition Animation
 //? Using Packages
@@ -42,3 +37,12 @@ void main() {
 //? Stack
 //? Carousel Slider
 //? Awesome Dialog
+
+//! Image Picker
+//! File Picker
+//! Play Video
+//! Play Audio
+//! Components
+//! MVC
+//! Implicit Animation
+//! Shared Preferences

@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/screen1.dart';
-import 'package:flutter_application_1/screens/stack_screen.dart';
-import 'package:flutter_application_1/screens/web_view_screen.dart';
-
-import '../screens/pdf_view_screen.dart';
-import '../screens/table_screen.dart';
+import 'package:flutter_application_1/screens/audio_screen.dart';
+import 'package:flutter_application_1/screens/file_picker_screen.dart';
+import 'package:flutter_application_1/screens/image_picker_screen.dart';
+import 'package:flutter_application_1/screens/video_view_screen.dart';
 
 class AppRoot extends StatelessWidget {
   const AppRoot({super.key});
@@ -13,11 +11,11 @@ class AppRoot extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: StackScreen(),
+      home: AudioScreen(),
       theme: ThemeData(
         // scaffoldBackgroundColor: Colors.black,
 
-        textTheme: TextTheme(
+        textTheme: const TextTheme(
           bodySmall: TextStyle(fontSize: 12),
           bodyMedium: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
           bodyLarge: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
@@ -32,7 +30,7 @@ class AppRoot extends StatelessWidget {
             ),
           ),
         ),
-        elevatedButtonTheme: ElevatedButtonThemeData(
+        elevatedButtonTheme: const ElevatedButtonThemeData(
           style: ButtonStyle(
             backgroundColor: MaterialStatePropertyAll(Colors.amber),
           ),
