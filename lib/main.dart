@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/root/app_root.dart';
+import 'package:flutter_application_1/shared_pref/shared_helper.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await SharedHelper.init();
+
   runApp(const AppRoot());
 }
-
-
 
 //! Material App - Scaffold
 //! Stateless Widget - Statefull Widget
@@ -44,5 +47,38 @@ void main() {
 //! Play Audio
 //! Components
 //! MVC
+
+
 //! Implicit Animation
+//! Animation Packages 
 //! Shared Preferences
+//! Factory Constructor
+
+
+
+
+
+//! Solid Principles
+
+//! Design Pattern
+
+//! Clean Code
+
+//! Arch Pattern
+
+
+
+
+//! Notes App 
+
+//! Home ( View All Notes + Add New Note )
+
+//! ViewAllNotes 
+
+//! Add New Note ( title + body + DateTime.now() )
+
+//! Shared Pref
+
+
+//! Map => json => String (Save as String)
+//! String => json => Map (Get as List<Map>)

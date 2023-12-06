@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/audio_screen.dart';
 import 'package:flutter_application_1/screens/file_picker_screen.dart';
 import 'package:flutter_application_1/screens/image_picker_screen.dart';
+import 'package:flutter_application_1/screens/implicit_animation_screen.dart';
+import 'package:flutter_application_1/screens/shared_pref_screen.dart';
 import 'package:flutter_application_1/screens/video_view_screen.dart';
 
 class AppRoot extends StatelessWidget {
@@ -11,7 +13,7 @@ class AppRoot extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AudioScreen(),
+      home: SharedPrefScreen(),
       theme: ThemeData(
         // scaffoldBackgroundColor: Colors.black,
 
